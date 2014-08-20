@@ -44,8 +44,8 @@ var TodoList = React.createClass({
                     <h1>ToDo List</h1>
                     
                     <form className="taskForm" onSubmit={this.handleSubmit}>
-                      <input type="text" placeholder="Enter task name" ref="tasktext" />
-                      <input type="submit" value="Add task" />
+                      <input type="text" placeholder="Type the task name and press ENTER" ref="tasktext" />
+                      <input type="submit" type="hidden" value="Add task" />
                     </form>
                     
                     <div id="todolist">

@@ -19,6 +19,20 @@ h1{
     margin-bottom:20px;
 }
 
+input[type=text]{
+    text-align: center;
+    font: inherit;
+    border: 6px solid #a3d8d6;
+    padding: 13px 12px;
+    font-size: 15px;
+    box-shadow: 0 1px 1px #DDD;
+    width: 384px;
+    outline: none;
+    display: block;
+    color: #7B8585;
+    margin: 0 auto 20px;
+}
+
 #todolist{
     list-style: none;
     display: inline-block;
